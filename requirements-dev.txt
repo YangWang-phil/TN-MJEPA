@@ -1,0 +1,2 @@
+-r pretrain/requirements.txt
+pytest>=8.0

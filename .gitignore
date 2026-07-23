@@ -1,0 +1,13 @@
+*.mat
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.csv
+*.log
+runs/
+results/
+cache/
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,29 @@
+{
+  "protocol_name": "TN-MJEPA paper source-disjoint protocol",
+  "epochs": 60,
+  "seeds": [42, 43, 44],
+  "evaluation_seed": 20260719,
+  "source_split": {
+    "train": [
+      "6号线-上行-海淀五路居-草房",
+      "6号线-上行-金安桥-海淀五路居",
+      "6号线-下行-海淀五路居-金安桥",
+      "6号线-下行-草房-海淀五路居"
+    ],
+    "val": "6号线-上行-草房-潞城",
+    "test": "6号线-下行-草房-潞城"
+  },
+  "expected_samples": {
+    "train": 16038,
+    "val": 2586,
+    "test": 2514
+  },
+  "full_runs": ["full_seed42", "full_seed43", "full_seed44"],
+  "single_seed_ablations": {
+    "no_aux_seed42": "no_aux",
+    "no_sga_seed42": "no_sga",
+    "no_position_seed42": "no_position",
+    "jepa_only_seed42": "jepa_only",
+    "contrastive_only_seed42": "contrastive_only"
+  }
+}
